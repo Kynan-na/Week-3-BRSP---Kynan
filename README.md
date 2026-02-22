@@ -40,7 +40,7 @@ Analisis GO dilakukan untuk mengetahui proses biologis dominan dari daftar DEGs.
 ![GO Enrichment Plot](GO_enrichment.jpg)
 
 **Interpretasi:**
-Berdasarkan *dot plot* di atas, gen-gen yang terekspresi diferensial  diperkaya (*enriched*) dalam proses biologis terkait regulasi angiogenesis dan regulasi pertumbuhan vaskulatur. Hal ini sejalan dengan karakteristik jaringan kanker yang mengalami proliferasi seluler yang tidak terkendali.
+Berdasarkan *dot plot* di atas, gen-gen yang terekspresi diferensial paling signifikan diperkaya (*enriched*) dalam proses pengorganisasian **matriks ekstraseluler (*extracellular matrix organization*)**, **penyembuhan luka (*wound healing*)**, serta **regulasi pembentukan pembuluh darah (*angiogenesis / vasculature development*)**. Hal ini sejalan dengan karakteristik jaringan kanker yang aktif merombak lingkungan sekitarnya untuk mendukung proliferasi seluler yang tidak terkendali.
 
 #### B. KEGG Pathway
 Analisis KEGG memetakan gen-gen signifikan ke dalam jalur interaksi molekuler.
@@ -48,7 +48,7 @@ Analisis KEGG memetakan gen-gen signifikan ke dalam jalur interaksi molekuler.
 ![KEGG Pathway Plot](KEGG_enrichment.jpg)
 
 **Interpretasi:**
-Hasil *bar plot* KEGG menunjukkan bahwa DEGs terdistribusi secara signifikan pada *pathway* Sitoskeleton pada sel otot dan pensinyalan integrin. Gangguan pada jalur-jalur ini merupakan mekanisme khas yang sering diobservasi pada perkembangan sel tumor dan adenokarsinoma.
+Hasil *bar plot* KEGG menunjukkan bahwa DEGs terdistribusi secara signifikan pada *pathway* yang berkaitan dengan struktur dan interaksi sel dengan lingkungannya, seperti **Sitoskeleton pada sel otot**, ***Integrin signaling***, ***Focal adhesion***, dan ***ECM-receptor interaction***. Selain itu, gen-gen ini juga memengaruhi ***p53 signaling pathway***. Gangguan pada adhesi matriks dan p53 merupakan mekanisme khas yang sering diobservasi pada perkembangan dan invasi sel adenokarsinoma paru.
 
 ## 4. Kesimpulan
 
